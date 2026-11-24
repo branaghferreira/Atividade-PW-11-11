@@ -1,0 +1,8 @@
+Sistema Loja - prototipo (menu + login + CRUD)
+
+1. Coloque a pasta em htdocs (XAMPP) e inicie Apache + MySQL.
+2. Importe sql/banco.sql no phpMyAdmin (cria imagem_db, tabelas e o admin).
+3. Acesse http://localhost/loja/  ->  admin@email.com / 123
+
+Classes (modelo da aula): classes/Usuario.class.php e classes/Produto.class.php
+(private $pdo, conexao no construtor, prepare + bindValue, um metodo por operacao).
